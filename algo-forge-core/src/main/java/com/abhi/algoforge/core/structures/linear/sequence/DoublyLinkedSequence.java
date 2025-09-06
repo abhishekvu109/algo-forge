@@ -99,8 +99,8 @@ public class DoublyLinkedSequence<T> implements Sequence<T>, LinkedList<T> {
                 head = null;
                 tail = null;
             } else {
+                head.getNext().setPrev(null);
                 head = head.getNext();
-                head.setPrev(null);
             }
             size--;
             return element;
