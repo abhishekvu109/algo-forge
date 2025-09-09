@@ -4,7 +4,7 @@
 
     <groupId>com.abhi.algoforge.core</groupId>
     <artifactId>algo-forge-core</artifactId>
-    <version>1.0-0</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
     <name>algo-forge-core</name>
