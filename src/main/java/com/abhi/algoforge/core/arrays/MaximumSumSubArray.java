@@ -2,7 +2,7 @@ package com.abhi.algoforge.core.arrays;
 
 public class MaximumSumSubArray {
     public enum Approach {
-        LINEAR_SOLUTION {
+        KADANES_ALGORITHM {
             @Override
             public int solve(int[] arr) {
                 int N = arr.length;
@@ -54,7 +54,7 @@ public class MaximumSumSubArray {
     }
 
     public int maximumSumSubArray(int[] arr) {
-        return maximumSumSubArray(arr, Approach.LINEAR_SOLUTION);
+        return maximumSumSubArray(arr, Approach.KADANES_ALGORITHM);
     }
 
     public int maximumSumSubArray(int[] arr, Approach approach) {
